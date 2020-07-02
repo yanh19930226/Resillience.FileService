@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Resillience.FileService.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Resillience.FileService.Api.Controllers.BaseServerApiController.Get">
+            <summary>
+            BaseServerApi
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Resillience.FileService.Api.Controllers.ClusterController.Get">
+            <summary>
+            Cluster
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Resillience.FileService.Api.Controllers.HealthController">
+            <summary>
+            健康检查
+            </summary>
+        </member>
+        <member name="T:Resillience.FileService.Api.Controllers.ServerController">
+            <summary>
+            服务端接口
+            </summary>
+        </member>
+        <member name="M:Resillience.FileService.Api.Controllers.ServerController.Get">
+            <summary>
+            测试方法
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Resillience.FileService.Api.Controllers.UserController.Get">
+            <summary>
+            User
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
