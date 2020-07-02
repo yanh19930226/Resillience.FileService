@@ -13,6 +13,9 @@ namespace Resillience.FileService.Api.Controllers
     [ApiController]
     public class HealthController : Controller
     {
+        /// <summary>
+        /// 健康检查
+        /// </summary>
         [HttpGet]
         public IActionResult Get()
         {

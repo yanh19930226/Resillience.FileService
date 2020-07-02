@@ -4,9 +4,21 @@
         <name>Resillience.FileService.Api</name>
     </assembly>
     <members>
+        <member name="T:Resillience.FileService.Api.Controllers.BaseServerApiController">
+            <summary>
+            Cluster
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:Resillience.FileService.Api.Controllers.BaseServerApiController.Get">
             <summary>
             BaseServerApi
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Resillience.FileService.Api.Controllers.ClusterController">
+            <summary>
+            Cluster
             </summary>
             <returns></returns>
         </member>
@@ -21,6 +33,11 @@
             健康检查
             </summary>
         </member>
+        <member name="M:Resillience.FileService.Api.Controllers.HealthController.Get">
+            <summary>
+            健康检查
+            </summary>
+        </member>
         <member name="T:Resillience.FileService.Api.Controllers.ServerController">
             <summary>
             服务端接口
@@ -29,6 +46,12 @@
         <member name="M:Resillience.FileService.Api.Controllers.ServerController.Get">
             <summary>
             测试方法
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Resillience.FileService.Api.Controllers.UserController">
+            <summary>
+            客户端
             </summary>
             <returns></returns>
         </member>

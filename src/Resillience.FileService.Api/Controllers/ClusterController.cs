@@ -6,6 +6,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Resillience.FileService.Api.Controllers
 {
+    /// <summary>
+    /// Cluster
+    /// </summary>
+    /// <returns></returns>
     public class ClusterController : Controller
     {
         /// <summary>

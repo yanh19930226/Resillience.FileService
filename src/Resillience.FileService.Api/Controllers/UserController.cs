@@ -6,6 +6,12 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Resillience.FileService.Api.Controllers
 {
+    /// <summary>
+    /// 客户端
+    /// </summary>
+    /// <returns></returns>
+    [Route("api/user")]
+    [ApiController]
     public class UserController : Controller
     {
         /// <summary>
